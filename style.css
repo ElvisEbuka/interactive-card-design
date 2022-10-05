@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+  *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+  body{
+    padding: 100px;
+  }
+  .project-house{
+    position: absolute;
+    width: 1050px;
+    height: 600px;
+    border: solid 1px hsl(270, 3%, 87%);
+    display: flex;
+
+  }
+  .image-one{
+    width: 350px;
+    height: 600px; 
+  }
+
+  /* card styling begins */
+  .first-card{
+    position: absolute;
+    left: 120px;
+    top: 130px;
+    width: 300px;
+    height: 170px;
+  }
+  .logo-container{
+    display: flex;
+    position: absolute;
+    top: 155px;
+    left: 150px;
+  }
+  
+  .circle{
+    width: 15px;
+    height: 15px;
+    margin: 10px 0px 0px 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+  .pin{
+    font-family: 'space Grotesk' sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+
+    position: absolute;
+    display: flex;
+    letter-spacing: 2px;
+    gap: 20px;
+    top: 225px;
+    left: 150px;
+    color: hsl(0, 0%, 100%);
+  }
+  .card-name{
+    font-family: 'space Grotesk' sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+
+    position: absolute;
+    display: flex;
+    gap: 150px;
+    top: 260px;
+    left: 150px;
+    color: hsl(0, 0%, 100%);
+  }
+.second-card{
+  position: absolute;
+  left: 200px;
+  top: 320px;
+  width: 300px;
+  height: 170px;
+}
+.cvv-pin{
+  font-family: 'space Grotesk' sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+
+    position: absolute;
+    top: 395px;
+    left: 440px;
+    color: hsl(0, 0%, 100%);
+}
+
+/*card styling ends here */
+
+/* form styling starts here */
+
+.form-container{
+  margin: 180px 180px 180px 250px;
+}
+label{
+  font-family: 'space Grotesk' sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  color: hsl(278, 68%, 11%);
+  margin-bottom: 5px;
+}
+input{
+  width: 300px;
+  height: 35px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: solid 1px hsl(270, 3%, 87%);
+}
+.exp-date{
+  color: hsl(278, 68%, 11%);
+  
+  font-weight: 500;
+  font-size: 10px;
+  margin: 5px;
+}
+.cvc{
+  color: hsl(278, 68%, 11%);
+  margin: 0px 0px 5px 100px;
+
+  font-family: 'space Grotesk' sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  
+}
+.data-container{
+  display: flex;
+  gap: 20px;
+}
+.data-field{
+  display: flex;
+  gap: 20px;
+}
+.cvc-input{
+  width: 105px;
+  height: 30px;
+}
+select[name=month]{
+  font-family: 'space Grotesk' sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  height: 30px;
+  border-radius: 2px;
+  border: solid 1px hsl(270, 3%, 87%);
+  text-align: center;
+  opacity: 60%;
+}
+
+select[name=year]{
+  font-family: 'space Grotesk' sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  height: 30px;
+  border-radius: 2px;
+  border: solid 1px hsl(270, 3%, 87%);
+  opacity: 60%;
+}
+button[type=submit]{
+  font-family: 'space Grotesk' sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+
+  width: 300px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: hsl(278, 68%, 11%);
+  border: none;
+}
+button:hover{
+  background-color: hsl(279, 6%, 55%);
+  color: black;
+  cursor: pointer;
+}
+::placeholder{
+  text-align: justify;
+  padding-left: 10px;
+}
+
+/* form styling ends here */S
